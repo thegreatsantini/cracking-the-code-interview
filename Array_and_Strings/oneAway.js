@@ -49,7 +49,7 @@ const oneAway = ( str1, str2 ) => {
     }
   }
 
-  if ( differances >= 2 ) {
+  if ( differances > 1 ) {
     return false;
   }
   else {
